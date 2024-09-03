@@ -7,6 +7,9 @@ import Garage from './components/Garage';
 import Header from './components/Header';
 import reportWebVitals from './reportWebVitals';
 import FavoriteColor from './components/FavouriteColor';
+import { Scooter } from './components/Scooter';
+// import { Scooter } from './components/Scooter';
+
 
 // // Create a sample component
 // function Car() {
@@ -25,7 +28,7 @@ import FavoriteColor from './components/FavouriteColor';
 //     <Car/>
 //     </div>
 //   )
-  
+
 // }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -34,7 +37,10 @@ root.render(
     <App />
     {/* <Garage/> */}
     {/* <Header></Header> */}
-    <FavoriteColor/>
+    <FavoriteColor />
+    <Car />
+    <Scooter />
+
   </React.StrictMode>
 );
 

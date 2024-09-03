@@ -5,6 +5,7 @@ function FavoriteColor() {
     // let color = 'Blue'
 
     // color refers here the state value
+    // we can set the color blue set in setcolor variable set color is called function
     const [color, setColor] = useState('Blue')
     return(
     <>
